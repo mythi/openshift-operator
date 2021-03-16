@@ -19,7 +19,7 @@ limitations under the License.
 
 // Package v1 contains API Schema definitions for the fpga v1 API group
 // +kubebuilder:object:generate=true
-// +groupName=fpga.intel.com
+// +groupName=nfv.intel.com
 package v1
 
 import (

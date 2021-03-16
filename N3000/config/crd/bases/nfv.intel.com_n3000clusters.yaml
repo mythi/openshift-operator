@@ -6,9 +6,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.3.0
   creationTimestamp: null
-  name: n3000clusters.fpga.intel.com
+  name: n3000clusters.nfv.intel.com
 spec:
-  group: fpga.intel.com
+  group: nfv.intel.com
   names:
     kind: N3000Cluster
     listKind: N3000ClusterList

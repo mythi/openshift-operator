@@ -6,13 +6,13 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.3.0
   creationTimestamp: null
-  name: n3000nodes.fpga.intel.com
+  name: n3000nodes.nfv.intel.com
 spec:
   additionalPrinterColumns:
   - JSONPath: .status.conditions[?(@.type=="Flashed")].reason
     name: Flash
     type: string
-  group: fpga.intel.com
+  group: nfv.intel.com
   names:
     kind: N3000Node
     listKind: N3000NodeList
